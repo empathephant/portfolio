@@ -1,0 +1,56 @@
+body {
+    background-color: #222;
+}
+
+html {
+    font-family: "Helvetica-Neue", "Helvetica", sans-serif;
+    color: #ddd;
+}
+
+h1 {
+    font-size: 4.4em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+p {
+    
+}
+
+header {
+    height: 30px;
+}
+
+#nav-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav-item {
+
+}
+
+.nav-item a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #22CC99;
+}
